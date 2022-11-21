@@ -3,8 +3,8 @@ import java.lang.Math;
 public class Enemy {
     public int health;
     public int attack;
-    int min = 5;
-    int max = 25;
+    int min = 1;
+    int max = 20;
     int damage = (int) (Math.random() * (max - min + 1) + min);
 
     public Enemy() {
